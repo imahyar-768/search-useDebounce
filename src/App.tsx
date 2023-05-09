@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Skeleton from 'react-loading-skeleton';
 import 'tailwindcss/tailwind.css';
-import {useDebounce} from "./useDebounce.ts";
+import {useDebounce} from "./useDebounce/useDebounce.ts";
 
 interface User {
     id: number;
